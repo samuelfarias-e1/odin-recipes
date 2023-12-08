@@ -5,16 +5,20 @@
 
 body{
     background-color: #953D3D;
+    height: 400px;
+    
+    
 }
 .master{
-    width: 1172px;
-    height: 415px;
-    border: 1px solid black;
-    margin: 90px;
+    display: inline-block;
+    margin-left: 105px;
+    
+    
 }
 .box-1{
     display: block;
-    margin: 100px;
+    margin: 10vh;
+    margin-top: 190px;
 
 }
 .tittle{
@@ -23,16 +27,84 @@ body{
     color: white;
     font-weight: lighter;
 }
-
-.button-1{
-    text-decoration: none;
-    color: black;
-    border-radius: 50px;
+.b-button{
     background-color: white;
-    padding: 15px;
-    font-size: 64px;
-    font-family: 'Italianno', cursive;
-    width: 908px;
-    height: 85px;
+    width: 20vh;
+    height: 6vh;
+    text-align: center;
+    border-radius: 50vh;
+    display: inline-block;
+
 
 }
+
+.button-1,
+.button-2,
+.button-3{
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    font-size: 28px;
+    font-family: 'Italianno', cursive;
+    text-align: center;
+    
+   
+
+}
+.button-3{
+    font-size: 29px;
+}
+.img{
+    display: inline-block;
+    right: 90px;
+    margin-inline: 80vh;
+    margin-top: -40vh;
+    width: 100px;
+    height: auto;
+    
+}
+.bb-1{
+    display: inline-block;
+    width: 1110px;
+    height: 500px;
+    margin-top: 70px;
+}
+.burger-p{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    width: 445px;
+    height: auto;
+    text-decoration: none;
+    color: white;
+    font-family: 'Italianno', cursive;
+    font-size: 25px;
+
+}
+.img-burger{
+    display: inline-block;
+    position: relative;
+    left: 75vh;
+    bottom: 50vh;
+    
+    
+}
+.bb-2{
+    
+    column-count: 2;
+    margin-right: 130px;
+    margin-bottom: 25px;
+    
+    
+    
+}
+.desc{
+    color: white;
+    font-family: 'Italianno', cursive;
+    font-size: 19px;
+
+}
+
+
+
+
